@@ -8,7 +8,7 @@ Package.describe({
 
 Package.onUse(function (api) {
   api.versionsFrom('1.1.0.2');
-  api.imply('chart:chart');
+  api.imply('chart:chart@1.0.1-beta.4');
   api.use('chart:chart', 'client', { weak:false, unordered: false });
 
   api.addFiles(['meteor/export.js', 'Chart.Scatter.js'], 'client');
